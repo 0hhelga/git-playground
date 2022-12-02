@@ -2,7 +2,7 @@ import words_fetcher
 import random
 
 
-def congratulate_user():
+def win_text():
     print("=============================")
     print("= Congratulations! You won! =")
     print("=============================")
