@@ -3,7 +3,7 @@ import random
 
 
 
-def congratulate_user():
+def show_used_words():
     print(f"Your words: {guesses}")
 
 def win_text():
@@ -55,7 +55,8 @@ while not is_game_over():
         guessed += 1
         guesses.append(guess)
         if guessed == WORDS_TO_WIN:
-            congratulate_user()
+            show_used_words()
+            win_text()
             exit()
         print(f"That's right! {WORDS_TO_WIN - guessed} to go")
     else:
