@@ -2,8 +2,15 @@ import words_fetcher
 import random
 
 
+
 def congratulate_user():
-    print(f"Congratulations, you won! your words: {guesses}")
+    print(f"Your words: {guesses}")
+
+def win_text():
+    print("=============================")
+    print("= Congratulations! You won! =")
+    print("=============================")
+
 
 
 def is_game_over():
